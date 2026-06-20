@@ -53,7 +53,7 @@ function Contact() {
               href={link.href}
               target={link.isExternal ? "_blank" : undefined}
               rel={link.isExternal ? "noopener noreferrer" : undefined}
-              className="p-6 bg-[#161616] border border-[#27272A] hover:border-[#A855F7] rounded-xl flex flex-col items-center justify-center text-center space-y-4 group transition-all duration-300"
+              className="p-6 bg-[#161616] border border-[#27272A] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.05)] hover:border-[#A855F7]/50 hover:-translate-y-0.5 rounded-xl flex flex-col items-center justify-center text-center space-y-4 group transition-all duration-300"
             >
               <div className="p-3 bg-[#0B0B0B] border border-[#27272A] text-[#A1A1AA] group-hover:text-white group-hover:border-[#A855F7]/50 rounded-lg transition-colors duration-200">
                 {link.icon}

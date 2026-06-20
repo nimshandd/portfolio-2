@@ -26,7 +26,7 @@ function Skills() {
           {Object.entries(skills).map(([key, list]) => (
             <div
               key={key}
-              className="p-6 bg-[#161616] border border-[#27272A] rounded-xl text-left space-y-4 hover:border-[#A855F7]/30 transition-all duration-300"
+              className="p-6 bg-[#161616] border border-[#27272A] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.05)] rounded-xl text-left space-y-4 hover:border-[#A855F7]/40 transition-all duration-300"
             >
               <h3 className="text-sm font-semibold uppercase tracking-wider text-white border-b border-[#27272A] pb-2">
                 {categoryNames[key] || key}

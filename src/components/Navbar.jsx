@@ -24,7 +24,7 @@ function Navbar() {
             <li key={link.label}>
               <a
                 href={link.href}
-                className="hover:text-white transition-colors duration-200"
+                className="relative pb-1 hover:text-white transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#A855F7] after:transition-all after:duration-300 hover:after:w-full"
               >
                 {link.label}
               </a>
