@@ -1,3 +1,5 @@
+import resumePdf from "../assets/Nimshan Dulantha CV.pdf";
+
 const profile = {
   name: "H M Nimshan Dulantha Dasanayaka",
 
@@ -25,7 +27,7 @@ const profile = {
 
   portfolio: "https://nimshanport.vercel.app",
 
-  resume: "/resume.pdf",
+  resume: resumePdf,
 
   about:
     "I am an IT student and aspiring Full Stack Developer with experience in React, Node.js, MongoDB, Flutter, Java, Firebase, and AI integrations. I enjoy building software that solves real-world problems and continuously improving my skills through practical projects and hands-on development.",
