@@ -43,6 +43,23 @@ const projects = [
     github: "https://github.com/nimshandd/nimshandd-Promethues-POS",
     live: null,
   },
+  {
+  id: 1,
+  title: "MarkOra",
+  description:
+    "Chrome extension that converts PDF, PPTX, DOCX, and TXT documents into clean Markdown before sending them to AI platforms such as ChatGPT, Claude, Gemini, DeepSeek, Copilot, and Perplexity.",
+  image: "/images/MarkOra.png",
+  technologies: [
+    "JavaScript",
+    "Chrome Extension",
+    "Manifest V3",
+    "Markdown",
+    "PDF Processing",
+    "Document Parsing",
+  ],
+  github: "https://github.com/nimshandd/Makora",
+  live: null,
+}
 ];
 
 export default projects;
