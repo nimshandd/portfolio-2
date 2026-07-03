@@ -3,17 +3,15 @@ import resumePdf from "../assets/Nimshan Dulantha CV.pdf";
 const profile = {
   name: "H M Nimshan Dulantha Dasanayaka",
 
-  title: "Full Stack Developer",
+  title: "Trainee Software Engineer at IIST (Pvt) Ltd | Full Stack Developer",
 
   subtitle:
-    "IT Student passionate about building modern web applications, AI-powered solutions, and practical software solutions.",
+    "Building modern web applications, AI-powered solutions, and scalable software while gaining hands-on industry experience.",
 
   education:
     "Higher National Diploma in Information Technology (HNDIT)",
 
   institute: "SLIATE, Anuradhapura",
-
-  gpa: "3.9",
 
   location: "Anuradhapura, Sri Lanka",
 
@@ -30,13 +28,13 @@ const profile = {
   resume: resumePdf,
 
   about:
-    "I am an IT student and aspiring Full Stack Developer with experience in React, Node.js, MongoDB, Flutter, Java, Firebase, and AI integrations. I enjoy building software that solves real-world problems and continuously improving my skills through practical projects and hands-on development.",
+    "I am a Trainee Software Engineer at IIST (Pvt) Ltd and an HNDIT student with a strong passion for Full Stack Development and Artificial Intelligence. I build modern web applications using React, Node.js, MongoDB, Flutter, Firebase, and Java while gaining practical industry experience in software engineering. I enjoy developing real-world solutions, learning new technologies, and continuously improving my technical and problem-solving skills.",
 
-  stats: {
-    projects: "4+",
-    gpa: "3.9",
-    technologies: "10+",
-  },
+stats: {
+  projects: "10+",
+  technologies: "20+",
+  experience: "Trainee Software Engineer",
+},
 };
 
 export default profile;

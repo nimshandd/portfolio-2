@@ -26,7 +26,7 @@ function About() {
                   {profile.education}
                 </p>
                 <p className="text-[#A1A1AA] text-xs md:text-sm">
-                  {profile.institute} • GPA: {profile.gpa}
+                  {profile.institute}
                 </p>
               </div>
             </div>
@@ -51,8 +51,8 @@ function About() {
             </div>
             
             <div className="p-6 bg-[#161616] border border-[#27272A] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.05)] hover:border-[#A1A1AA]/30 transition-all duration-300 rounded-xl text-left space-y-1">
-              <span className="block text-2xl md:text-3xl font-bold text-white">{profile.stats.gpa}</span>
-              <span className="text-xs text-[#A1A1AA] uppercase tracking-wider">GPA / 4.0</span>
+              <span className="block text-2xl md:text-3xl font-bold text-white">{profile.stats.experience}</span>
+              <span className="text-xs text-[#A1A1AA] uppercase tracking-wider">Experience</span>
             </div>
           </div>
         </div>
